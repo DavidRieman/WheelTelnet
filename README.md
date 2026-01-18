@@ -22,4 +22,4 @@ It was initially built for [WheelMUD](https://github.com/DavidRieman/WheelMUD), 
 * Does not apply other application-specific rules for you. (Things like deciding to automatically disconnect long-inactive connections are per-application choices.)
 
 ## Development Guide
-To keep this README short and shared with NuGet, see the [Development Guide](https://github.com/DavidRieman/WheelTelnet/docs/DevGuide.md) for further details to getting started.
+To keep this README short and shared with NuGet, see the [Development Guide](https://github.com/DavidRieman/WheelTelnet/blob/main/docs/DevGuide.md) for the next steps.
