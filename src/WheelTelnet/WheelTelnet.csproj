@@ -4,6 +4,26 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- NuGet package metadata. -->
+    <PackageId>WheelTelnet</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>David Rieman</Authors>
+    <Company>David Rieman</Company>
+    <Description>A minimal C# Telnet library for building applications using the Telnet protocol.</Description>
+    <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/DavidRieman/WheelTelnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/DavidRieman/WheelTelnet</PackageProjectUrl>
+    <Copyright>Copyright © WheelMUD Development Team / David Rieman.</Copyright>
+    <PackageTags>telnet;networking;server;client;dotnet;library</PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
 
 </Project>
